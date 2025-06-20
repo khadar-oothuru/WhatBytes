@@ -315,43 +315,11 @@ Access the Django admin at `http://127.0.0.1:8000/admin/`
 3. Test authentication flow
 4. Test CRUD operations for patients and doctors
 5. Test patient-doctor mappings
-
-## 🚀 Deployment
-
-### For Production:
-
-1. **Update Database**: Switch to PostgreSQL in settings.py
-2. **Environment Variables**: Set production values in .env
-3. **Static Files**: Configure static file serving
-4. **Security**: Update ALLOWED_HOSTS, disable DEBUG
-5. **HTTPS**: Configure SSL certificates
-
-### Example Production Settings:
-```python
-DEBUG = False
-ALLOWED_HOSTS = ['yourdomain.com']
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        # ... PostgreSQL configuration
-    }
-}
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make changes and add tests
-4. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License.
+nse.
 
 ## 📞 Support
 
-For support and questions, please contact: khadar@gmail.com
+For support and questions, please contact: khadaroothuru@gmail.com
 
 ---
 
